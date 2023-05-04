@@ -10,9 +10,9 @@
                 <li id="admin-menu-list">
                     <ul>
                         <li id="admin-menu-dashboard" class="selected"><a href="/admin" class="symbol"><span>Dashboard</span></a></li>
-                        {{if le .Admin.Manage.MinimumLevel .CurrentUser.Level}}<li id="admin-menu-manage"><a href="/admin/manage" class="symbol"><span>Manage</span></a></li>{{end}}
-                        {{if le .Admin.Settings.MinimumLevel .CurrentUser.Level}}<li id="admin-menu-settings"><a href="/admin/settings" class="symbol"><span>Settings</span></a></li>{{end}}
-                        {{if le .Admin.Settings.MinimumLevel .CurrentUser.Level}}<li id="admin-menu-settings"><a href="/Indigo/views" class="symbol"><span>Exit_AdminPanel</span></a></li>{{end}}
+                        {{if le .Admin.Manage.MinimumLevel .CurrentUser.Level}}<li id="admin-menu-manage"><a href="/Olive2_Website/admin/manage" class="symbol"><span>Manage</span></a></li>{{end}}
+                        {{if le .Admin.Settings.MinimumLevel .CurrentUser.Level}}<li id="admin-menu-settings"><a href="/Olive2_Website/admin/settings" class="symbol"><span>Settings</span></a></li>{{end}}
+                        {{if le .Admin.Settings.MinimumLevel .CurrentUser.Level}}<li id="admin-menu-settings"><a href="/Olive2_Website/Indigo/views" class="symbol"><span>Exit_AdminPanel</span></a></li>{{end}}
                     </ul>
                 </li>
             </menu>
